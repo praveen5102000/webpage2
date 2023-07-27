@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+}
+img {
+    width: 14%;
+}
+.par {
+    display: flex;
+    background-color: #8d1b1b;
+    padding: 24px 24px 24px 24px;
+}
+.details{
+    width: 40%;
+}
+.first li a:hover{
+    color: #56d2dd;
+    
+}
+.menu{
+    width: 40%;
+}
+ul.first {
+    display: flex;
+    color: white;
+}
+.first li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-right: 46px;
+    font-size: large;
+    font-family: fantasy;
+}
+ul.navlinks {
+    display: flex;
+}
+.first li{
+    list-style: none;
+}
+.navlinks li a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.buy{
+    background-color: rgb(60, 175, 31);
+    color: greenyellow;
+}
+.dis{
+    background-color: rgb(60, 175, 31);
+    color: greenyellow;
+}
+.buy:hover{
+    background-color: aqua;
+    color: #000;
+}
+.dis:hover{
+    background-color: aqua;
+    color: #000;
+    
+}
+.navlinks li{
+    list-style: none;
+}
+.details {
+    width: 40%;
+    padding: 20px 0px;
+}
+.menu {
+    width: 40%;
+    padding-left: 23%;
+}
+
+
+.main {
+    padding-top: 24px;
+}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 70%;
+    border: 1px solid black;
+}
+.child {
+    flex-basis: 31.4%;
+    background-color: #ffa113;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 12px;
+    padding: 25px 10px 25px 10px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+.child a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    margin: 15px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.child img {
+    padding: 10px 0;
+    margin: 0;
+}
+.child h4 {
+    padding: 10px 0;
+    margin: 0;
+}
+.child p {
+    padding: 10px 0;
+    margin: 0;
+}
+.parent :hover {
+    background-color: rgb(219, 50, 245);
+}
+.child:hover .child a {
+    background-color: rgb(148, 47, 47);
+}
+.main h1{
+    text-align: center;
+    padding-bottom: 20px;
+    color:#250087;
+}
+.article{
+    background-image: url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 15px;
+}
+
+
+.ft1{
+    display: flex;
+    background-color: rgb(8, 205, 64);
+    padding: 40px 0px;
+}
+.ftlogo {
+    width: 35%;
+    padding: 5px 0px 5px 0px;
+    margin-left: 78px;
+}
+.name {
+    display: block;
+}
+.name p {
+    margin-left: 54px;
+}
+ul.social {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.social li a {
+    padding: 40px;
+}
+h3 {
+    padding-left: 90px;
+    padding-bottom: 30px;
+    font-size: larger;
+    font-family: sans-serif;
+    color: black;
+}
+.cpy{
+    color: white;
+    background-color: #000;
+    text-align: center;
+}
